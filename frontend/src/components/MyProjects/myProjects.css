@@ -1,0 +1,40 @@
+.mp{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mp-text{
+    width: 65%;
+}
+.mp-title{
+    font-weight: 400;
+}
+.mp-projects{
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* responsive css */
+
+@media screen and (max-width:480px){
+    .mp{
+        padding: 10px;
+    }
+    .mp-text{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    .mp{
+        padding: 10px;
+        height: auto;
+    }
+    .mp-text{
+        width: 100%;
+    }
+}

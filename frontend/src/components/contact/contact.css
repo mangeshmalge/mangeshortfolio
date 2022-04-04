@@ -1,0 +1,207 @@
+@import "../../globel.css";
+.c{
+    height: 100vh;
+    position: relative;
+    margin-top: 20px;
+}
+.c-name{
+    text-align: center;
+    font-weight: 400;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: var(--mybg);
+    position: absolute;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+.c-left{
+    flex: 1;
+}
+.c-right{
+    flex: 1;
+}
+.c-title{
+    font-size: 60px;
+    width: 80%;
+}
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+form{
+    margin-top: 10px;
+}
+input{
+    width: 50%;
+    height: 30px;  
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+button{
+    border: none;
+    padding: 10px ;
+    border-radius: 10px;
+    background-color:var(--mybg);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* responsive css */
+
+@media screen and (max-width:480px){
+   
+    .c-wrapper{
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .c-title{
+        font-size: 25px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .c-icon{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    .c-desc{
+        display: none;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 30%;
+        height: 30px;
+        margin:5px;
+    }
+    textarea{
+        height: 50px;
+    }
+    button{
+        height: 35px;
+        padding:1px 15px ;
+        font-size: 12px;
+        border-radius: 10px;
+        font-weight: 300;
+    }
+    .c{
+     padding: 15px;
+    }
+}
+@media screen and (max-width:768px){
+    
+    .c-wrapper{
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+    .c-title{
+        font-size: 25px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .c-icon{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+   
+    form{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 35%;
+        height: 45px;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    textarea{
+        height: 100px;
+    }
+    button{
+        height: 35px;
+        padding:1px 15px ;
+        font-size: 12px;
+        border-radius: 10px;
+        font-weight: 300;
+    }
+    .c{
+     padding: 15px;
+    }
+}
+@media screen and (max-width:1000px){
+   
+    .c-wrapper{
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+    .c-title{
+        font-size: 25px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .c-icon{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    
+    form{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 35%;
+        height: 45px;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    textarea{
+        height: 100px;
+    }
+    button{
+        height: 35px;
+        padding:1px 15px ;
+        font-size: 12px;
+        border-radius: 10px;
+        font-weight: 300;
+    }
+    .c{
+     padding: 15px;
+    }
+}
